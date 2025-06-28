@@ -1,13 +1,220 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/4geeks.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/js/main.jsx"></script>
+    <!-- Navbar/Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Random Title Here..</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+            <li class="nav-item mt-2 mt-lg-0">
+              <a class="nav-link btn btn-primary text-white ms-lg-2" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light py-5 text-center text-md-start">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to My Service</h1>
+        <p class="lead">
+          We help you achieve amazing results with simplicity and power.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg mt-3">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Features/Benefits Grid -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <!-- Card Placeholder 1 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="card" aria-hidden="true">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="180"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <rect width="100%" height="100%" fill="#868e96"></rect>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6"></span>
+                </h5>
+                <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <a
+                  href="#"
+                  tabindex="-1"
+                  class="btn btn-primary disabled placeholder col-6 py-2"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Placeholder 2 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="card" aria-hidden="true">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="180"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <rect width="100%" height="100%" fill="#868e96"></rect>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6"></span>
+                </h5>
+                <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <a
+                  href="#"
+                  tabindex="-1"
+                  class="btn btn-primary disabled placeholder col-6 py-2"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Placeholder 3 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="card" aria-hidden="true">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="180"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <rect width="100%" height="100%" fill="#868e96"></rect>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6"></span>
+                </h5>
+                <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <a
+                  href="#"
+                  tabindex="-1"
+                  class="btn btn-primary disabled placeholder col-6 py-2"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Placeholder 4 -->
+          <div class="col-12 col-sm-6 col-md-3 mb-3">
+            <div class="card" aria-hidden="true">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="180"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <rect width="100%" height="100%" fill="#868e96"></rect>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title placeholder-glow">
+                  <span class="placeholder col-6"></span>
+                </h5>
+                <p class="card-text placeholder-glow">
+                  <span class="placeholder col-7"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-4"></span>
+                  <span class="placeholder col-6"></span>
+                  <span class="placeholder col-8"></span>
+                </p>
+                <a
+                  href="#"
+                  tabindex="-1"
+                  class="btn btn-primary disabled placeholder col-6 py-2"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-12 col-md-6 mb-2 mb-md-0">
+            <p class="mb-0">&copy; 2025 MyBrand. All rights reserved.</p>
+          </div>
+          <div class="col-12 col-md-6 text-md-end">
+            <a href="#" class="text-light me-3">Privacy</a>
+            <a href="#" class="text-light">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
